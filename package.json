@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "naives": "sucrase-node src/naives-solution/index.js",
+    "worker": "sucrase-node src/worker-threads/index.js",
     "bg-proccess": "sucrase-node src/background-proccess/index.js"
   },
   "devDependencies": {
